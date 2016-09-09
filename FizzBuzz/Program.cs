@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FizzBuzz
 {
@@ -18,7 +13,7 @@ namespace FizzBuzz
                 else if (i%5 == 0) Console.WriteLine("Buzz");
                 else Console.WriteLine(i);
             }
-
+            
             Console.WriteLine();
 
             var engine = new RuleEngine();
