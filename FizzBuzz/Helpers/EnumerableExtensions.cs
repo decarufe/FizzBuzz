@@ -8,7 +8,7 @@ namespace FizzBuzz.Helpers
     {
         public static IEnumerable<T> ForEach<T>(this IEnumerable<T> enumerable, Action<T> action)
         {
-            var forEach = enumerable as T[] ?? enumerable.ToArray();
+            var forEach = enumerable.ToArray();
             foreach (var item in forEach)
             {
                 action(item);
