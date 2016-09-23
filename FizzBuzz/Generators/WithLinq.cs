@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Linq;
+using FizzBuzz.Helpers;
 
-namespace FizzBuzz
+namespace FizzBuzz.Generators
 {
     class WithLinq : IGenerator
     {

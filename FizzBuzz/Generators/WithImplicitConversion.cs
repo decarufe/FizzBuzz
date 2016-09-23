@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Linq;
+using FizzBuzz.Helpers;
 
-namespace FizzBuzz
+namespace FizzBuzz.Generators
 {
-    class ImplicitConversion : IGenerator
+    class WithImplicitConversion : IGenerator
     {
         private Action<string> _todo;
 
-        public ImplicitConversion(Action<string> todo)
+        public WithImplicitConversion(Action<string> todo)
         {
             _todo = s =>
             {

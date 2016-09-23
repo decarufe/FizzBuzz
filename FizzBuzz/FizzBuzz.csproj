@@ -58,25 +58,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BuzzRule.cs" />
-    <Compile Include="EnumerableExtensions.cs" />
-    <Compile Include="FizzBuzzer.cs" />
-    <Compile Include="ForLoopWithIfElse.cs" />
-    <Compile Include="IGenerator.cs" />
-    <Compile Include="ImplicitConversion.cs" />
-    <Compile Include="WithLinq.cs" />
-    <Compile Include="RuleEngine.cs" />
-    <Compile Include="FizzRule.cs" />
-    <Compile Include="IRule.cs" />
-    <Compile Include="Payload.cs" />
+    <Compile Include="Helpers\BuzzRule.cs" />
+    <Compile Include="Helpers\EnumerableExtensions.cs" />
+    <Compile Include="Helpers\FizzBuzzer.cs" />
+    <Compile Include="Generators\WithForLoopWithIfElse.cs" />
+    <Compile Include="Generators\IGenerator.cs" />
+    <Compile Include="Generators\WithImplicitConversion.cs" />
+    <Compile Include="Generators\WithLinq.cs" />
+    <Compile Include="Helpers\RuleEngine.cs" />
+    <Compile Include="Helpers\FizzRule.cs" />
+    <Compile Include="Helpers\IRule.cs" />
+    <Compile Include="Helpers\Payload.cs" />
     <Compile Include="FizBuzzTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WithRuleEngine.cs" />
+    <Compile Include="Generators\WithRuleEngine.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

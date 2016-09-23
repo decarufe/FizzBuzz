@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace FizzBuzz
+namespace FizzBuzz.Generators
 {
-    class ForLoopWithIfElse : IGenerator
+    class WithForLoopWithIfElse : IGenerator
     {
         private readonly Action<string> _todo;
 
-        public ForLoopWithIfElse(Action<string> todo)
+        public WithForLoopWithIfElse(Action<string> todo)
         {
             _todo = s =>
             {

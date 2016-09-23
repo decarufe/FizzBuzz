@@ -1,6 +1,4 @@
-﻿using System.Runtime.InteropServices;
-
-namespace FizzBuzz
+﻿namespace FizzBuzz.Helpers
 {
     public struct FizzBuzzer
     {

@@ -1,6 +1,7 @@
 ﻿using System;
+using FizzBuzz.Helpers;
 
-namespace FizzBuzz
+namespace FizzBuzz.Generators
 {
     class WithRuleEngine : IGenerator
     {

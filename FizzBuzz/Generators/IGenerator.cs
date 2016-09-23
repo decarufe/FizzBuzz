@@ -1,4 +1,4 @@
-﻿namespace FizzBuzz
+﻿namespace FizzBuzz.Generators
 {
     public interface IGenerator
     {

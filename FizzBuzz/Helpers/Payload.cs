@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace FizzBuzz
+namespace FizzBuzz.Helpers
 {
     public class Payload
     {

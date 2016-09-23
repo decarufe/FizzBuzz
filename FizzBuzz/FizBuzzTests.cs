@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using FizzBuzz.Generators;
 using FluentAssertions;
 using NUnit.Framework;
 
@@ -29,10 +30,10 @@ namespace FizzBuzz
 
         private static readonly IGenerator[] AllGenerators =
         {
-            new ForLoopWithIfElse(_list.Add),
+            new WithForLoopWithIfElse(_list.Add),
             new WithRuleEngine(_list.Add),
             new WithLinq(_list.Add),
-            new ImplicitConversion(_list.Add)
+            new WithImplicitConversion(_list.Add)
         };
 
         [Test, TestCaseSource(nameof(AllGenerators))]

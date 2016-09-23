@@ -1,4 +1,4 @@
-﻿namespace FizzBuzz
+﻿namespace FizzBuzz.Helpers
 {
     public class BuzzRule : IRule
     {
