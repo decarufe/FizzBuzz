@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\Backup_Eric\Workspace.git\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.dll" total="4" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-09-23" time="04:12:24">
+  <environment nunit-version="3.4.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.14393.0" platform="Win32NT" cwd="D:\Backup_Eric\Workspace.git\FizzBuzz" machine-name="LAPTOP-ERIC" user="Eric" user-domain="LAPTOP-ERIC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="D:\Backup_Eric\Workspace.git\FizzBuzz\FizzBuzz\bin\Debug\FizzBuzz.dll" executed="True" result="Success" success="True" time="0.470" asserts="0">
+    <properties>
+      <property name="_PID" value="16720" />
+      <property name="_APPDOMAIN" value="test-domain-" />
+    </properties>
+    <results>
+      <test-suite type="TestSuite" name="FizzBuzz" executed="True" result="Success" success="True" time="0.435" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="FizBuzzTests" executed="True" result="Success" success="True" time="0.428" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="TestGenerator" executed="True" result="Success" success="True" time="0.418" asserts="0">
+                <results>
+                  <test-case name="FizzBuzz.FizBuzzTests.TestGenerator(FizzBuzz.Generators.WithForLoopWithIfElse)" executed="True" result="Success" success="True" time="0.334" asserts="0" />
+                  <test-case name="FizzBuzz.FizBuzzTests.TestGenerator(FizzBuzz.Generators.WithRuleEngine)" executed="True" result="Success" success="True" time="0.013" asserts="0" />
+                  <test-case name="FizzBuzz.FizBuzzTests.TestGenerator(FizzBuzz.Generators.WithLinq)" executed="True" result="Success" success="True" time="0.029" asserts="0" />
+                  <test-case name="FizzBuzz.FizBuzzTests.TestGenerator(FizzBuzz.Generators.WithImplicitConversion)" executed="True" result="Success" success="True" time="0.012" asserts="0" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
