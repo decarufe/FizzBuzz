@@ -44,6 +44,10 @@
       <HintPath>..\packages\FluentAssertions.4.14.0\lib\net45\FluentAssertions.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="JetBrains.Annotations, Version=10.1.5.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
+      <HintPath>..\packages\JetBrains.Annotations.10.1.5\lib\net\JetBrains.Annotations.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="nunit.framework, Version=3.4.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.4.1\lib\net45\nunit.framework.dll</HintPath>
       <Private>True</Private>
@@ -58,6 +62,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\DeepCopyExtensions.cs" />
+    <Compile Include="Extensions\ExtensionPoint.cs" />
+    <Compile Include="Extensions\GuidExtension.cs" />
+    <Compile Include="Extensions\IEnumerable.cs" />
+    <Compile Include="Extensions\IExtensionPoint.cs" />
+    <Compile Include="Extensions\ObjectExtensions.cs" />
+    <Compile Include="Extensions\Sequencial.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Helpers\BuzzRule.cs" />
     <Compile Include="Helpers\EnumerableExtensions.cs" />
     <Compile Include="Helpers\FizzBuzzer.cs" />
@@ -72,6 +84,12 @@
     <Compile Include="FizBuzzTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Generators\WithRuleEngine.cs" />
+    <Compile Include="Visitor\IVisitableExtensionPoint.cs" />
+    <Compile Include="Visitor\VisitableExtensionPoint.cs" />
+    <Compile Include="Visitor\VisitableExtensionPointProvider.cs" />
+    <Compile Include="Visitor\VisitableExtensions.cs" />
+    <Compile Include="Visitor\Visitor.cs" />
+    <Compile Include="Visitor\VisitorFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
