@@ -70,6 +70,7 @@
     <Compile Include="Extensions\ObjectExtensions.cs" />
     <Compile Include="Extensions\Sequencial.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Generators\Without3Or5.cs" />
     <Compile Include="Helpers\BuzzRule.cs" />
     <Compile Include="Helpers\EnumerableExtensions.cs" />
     <Compile Include="Helpers\FizzBuzzer.cs" />

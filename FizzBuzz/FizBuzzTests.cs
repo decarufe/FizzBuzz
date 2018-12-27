@@ -29,7 +29,8 @@ namespace FizzBuzz
             new WithForLoopWithIfElse(_list.Add),
             new WithRuleEngine(_list.Add),
             new WithLinq(_list.Add),
-            new WithImplicitConversion(_list.Add)
+            new WithImplicitConversion(_list.Add),
+            new Without3Or5(_list.Add)
         };
 
         [Test, TestCaseSource(nameof(AllGenerators))]
