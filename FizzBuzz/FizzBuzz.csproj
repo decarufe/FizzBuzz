@@ -65,10 +65,10 @@
     <Compile Include="Extensions\DeepCopyExtensions.cs" />
     <Compile Include="Extensions\ExtensionPoint.cs" />
     <Compile Include="Extensions\GuidExtension.cs" />
-    <Compile Include="Extensions\IEnumerable.cs" />
+    <Compile Include="Extensions\EnumerableExtension.cs" />
     <Compile Include="Extensions\IExtensionPoint.cs" />
     <Compile Include="Extensions\ObjectExtensions.cs" />
-    <Compile Include="Extensions\Sequencial.cs" />
+    <Compile Include="Extensions\Sequential.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="Generators\Without3Or5.cs" />
     <Compile Include="Helpers\BuzzRule.cs" />

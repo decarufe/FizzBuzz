@@ -2,7 +2,7 @@
 
 namespace FizzBuzz.Extensions
 {
-  public static class Sequencial
+  public static class Sequential
   {
     public static void Invoke(params Action[] actions)
     {

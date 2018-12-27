@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace FizzBuzz.Extensions
 {
-  public static class IEnumerable
+  public static class EnumerableExtension
   {
     public static bool None<TSource>(this IEnumerable<TSource> source, Func<TSource, bool> match)
     {
